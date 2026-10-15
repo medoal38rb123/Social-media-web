@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@theme {
+    --color-main-color: #BA68C8;
+    --color-seconed-main-color: #3abef7;
+}
+
+body {
+    background-color: #F2F4F7 !important;
+    position: relative;
+}
+
+.toggle-btn .active {
+    background-color: var(--color-main-color);
+    border-radius: 20px;
+    padding: 4px 8px;
+    color: white;
+}
+
+.or::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.104);
+    position: relative;
+}
+
+.or::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.104);
+    position: relative;
+}
